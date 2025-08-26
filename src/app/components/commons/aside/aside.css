@@ -1,0 +1,24 @@
+.asside-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 885px;
+  right: 450px;
+  text-align: center;
+  width: 10%;
+}
+
+.asside-container img {
+  width: 280px;
+}
+
+.asside-container fieldset {
+  width: 100%;
+}
+
+.asside-container fieldset:nth-of-type(3) ul li img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 2px;
+  display: block;
+}

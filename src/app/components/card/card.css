@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* espace égal entre les sections */
+  align-items: flex-start;
+  width: 60vw;           /* même largeur que img2 */
+  max-width: 100%;      /* pour ne pas dépasser img2 */
+  margin: 20px auto;     /* centré horizontalement, espace vertical */
+  gap: 20px;             /* espace entre sections */
+  margin-top: 5px;
+  
+}
+
+.container section {
+  flex: 1;               /* chaque section prend un tiers de la largeur */
+}
+
+.container fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container legend h2 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}

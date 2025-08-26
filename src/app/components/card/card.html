@@ -1,0 +1,12 @@
+<div class="container">
+    @for (section of sections; track $index) {
+        <section>
+            <fieldset>
+                <legend>
+                    <h2>{{ section.title }}</h2>
+                </legend>
+                <p>{{ section.description }}</p>
+            </fieldset>
+        </section>
+    }
+</div>

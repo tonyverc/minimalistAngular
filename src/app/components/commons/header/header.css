@@ -1,0 +1,34 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centre verticalement dans le header */
+  align-items: center;     /* centre horizontalement */
+  text-align: center;
+  padding: 20px;
+  position: relative;      /* utile si tu veux ajouter des éléments overlay */
+}
+
+.head img.img2 {
+  width: 60vw;
+  max-width: 100%;
+  margin: 20px 0; /* espace vertical entre navbar et image */
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.head h1,
+.head h2,
+.head h3 {
+  color: white;
+  margin: 5px 0;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+    @for (article of articles; track $index) {
+    <div class="enfant">
+        <article>
+            <img [src]="article.img" [alt]="article.alt" />
+            <p>{{ article.date }} by {{ article.author }}</p>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.content }}</p>
+        </article>
+    </div>
+    }
+</div>
